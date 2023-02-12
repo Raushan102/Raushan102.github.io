@@ -6,12 +6,12 @@
 }
 body{
   height: 100vh;
-  width: 212vh; 
+  width: 100vw; 
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(./media/backgroundimage.png);
+  background: url(./media/backgroundimage.png);
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Bebas Neue', cursive;
