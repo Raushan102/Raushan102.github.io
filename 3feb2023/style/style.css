@@ -5,14 +5,13 @@
  box-sizing: border-box;
 }
 body{
-  width: 100vh;
-  height: 100vw; 
+  width: 100vw;
+  height: 100vh; 
   display: flex;
   align-content: center;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url('media/backgroundimage.png');
-  background-size: cover;
+  background-image: url('media/backgroundimage.png') cover;
   background-attachment: fixed;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Poppins', sans-serif;
