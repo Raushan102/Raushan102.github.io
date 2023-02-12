@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+ overflow: hidden;
+ box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 212vh; 
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(/media/backgroundimage.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: brightness(50%);
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+  margin-top: 50px;
+}
+header div{
+  padding-left: 80px;
+}
+header button{
+  margin-right: 50px;
+}
+
+header ul{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  gap: 60px;
+  margin-right: 30px;
+}
+li a{
+  text-decoration: none;
+  color:rgb(255, 255, 0);
+}
+li a:hover{
+  font-size: xx-large;
+  text-decoration: underline;
+}
+header ul li{
+  font-weight: 900;
+  color: rgb(255, 255, 0);
+  font-size: large;
+}
+button{
+  padding: 8px 41px;
+  background-color:tomato;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: xx-large;
+  border: none;
+}
+button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+button:hover{
+  background-color:rgb(228, 164, 152);
+  color:rgb(207, 210, 213);
+  border: 1px solid rgb(255, 255, 0);
+  
+}
+main{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center; 
+  gap: 50px;
+  margin-top: 145px;
+  margin-left: 100px;
+ 
+}
+span{
+  font-size: 60px;
+  font-weight: 900px;
+  line-height: 70px;
+  color: rgb(255, 255, 0); 
+  font-family: 'Oswald', sans-serif;
+font-family: 'Unbounded', cursive;        
+}
+footer img{
+  float:right;
+  margin-right: 40px;
+}
+main button{
+  background-color:rgb(243, 158, 143);
+}
