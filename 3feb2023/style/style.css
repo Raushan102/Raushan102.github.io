@@ -1,7 +1,7 @@
 *{
   margin: 0px;
   padding: 0px; 
- overflow: auto;
+ overflow: hidden;
  box-sizing: border-box;
 }
 body{
@@ -13,8 +13,7 @@ body{
   justify-content: space-around;
   background-image: url('media/backgroundimage.png') cover;
   background-attachment: fixed;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   backdrop-filter: brightness(50%);
 }
 header{
