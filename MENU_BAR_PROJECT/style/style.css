@@ -1,0 +1,102 @@
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+  }
+
+  body {
+    background-image: url(/MENU_BAR_PROJECT/assets/neeraj2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .Flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  header {
+
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 255, 255, 0.221);
+
+  }
+
+  .headerLeftText {
+    font-size: 1.5em;
+    font-weight: bold;
+
+  }
+
+  .nav {
+   
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+
+  }
+  .nav_ul
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+  }
+  
+
+  .nav_ul li {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .show {
+    transition: transform 1s, background-color 0.3s;
+    transform: translateX(-400px);
+
+  }
+
+  @media (max-width: 658px) {
+    #bars {
+      display: block;
+      color: aliceblue;
+
+    }
+
+    .nav {
+      position: absolute;
+      background-color: rgba(0, 0, 255, 0.416);
+      height: 100vh;
+      top: 70px;
+      right: -400px;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      border: none;
+      border-radius: 20px;
+    }
+    .nav_ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100%;
+      font-size: 1.2em;
+      font-weight: bold;
+      gap: 20px;
+
+    }
+  }
