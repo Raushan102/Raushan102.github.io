@@ -1,0 +1,152 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    overflow: hidden;
+   
+    
+   
+   
+}
+
+/*                         this css for all <li>  tag in whole web page                   */
+
+li{
+    list-style: none;
+}
+
+/*                           this css for all <a> tag in whole web page            */
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*                                    header part                 */
+
+header{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 300px;
+}
+/*child of all header*/
+header ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+/*logo of header part of web page*/
+.headerlogo{
+    width:200px;
+    height: 60px;
+
+}
+main{
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around; 
+    background-image:url(./assets/stethoscope.png) ;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    background-position-x: 200px;
+}
+  
+   
+
+
+
+.main-leftimage{
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+}
+/*           left side paragraph     */
+main p{
+    font-size: 12px;
+}
+.main-div1-div1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+/* yellow angle image in  main section */
+.yellow-angle{
+    margin-left: 210px;
+}
+ h1{
+    font-size: 3em;
+}
+
+/*          yellow image             */
+.yellow{
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+}
+/*                  green image        */
+.green{
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+    bottom: 70px;
+    width: 400px;
+    height: 400px;
+}
+
+/*                  docter image      */
+.docterimage{
+    height: 630px;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+  
+}
+/* main left content*/
+.main-left-content{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center;
+    gap: 20px;
+    margin-left: 50px;
+   
+}
+/*                               for button                   */
+button
+{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    background-color: rgb(52, 185, 143);
+
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+ 

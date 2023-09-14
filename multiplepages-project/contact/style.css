@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    align-content: center;
+   justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    
+}
+
+header{
+   height: 10%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.headerleftside{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+/*header logo*/
+.headerlogo{
+    height: 50px;
+    width: 160px;
+}
+/*   from here all css for main */
+main{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* middel form page box*/
+.middel-box{
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      padding: 10px;
+      width: 300px;
+      height: 399px;
+      margin: 10px;
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1),0px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+  align-content: center ;
+  justify-content: space-around;
+  text-align: left;
+  gap: 5px;
+ 
+
+ 
+ 
+}
+
+/*  firm input*/
+input{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+ 
+}
+/*         text area for message                              */
+textarea{
+      border-radius: 10px;
+      border: none;
+      background-color: #ffffff;
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+      font-family: 'Poppins', sans-serif;
+}
+/*                      submit button                   */
+
+#submit{
+    background-color: rgb(29, 192, 137);
+}
