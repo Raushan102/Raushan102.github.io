@@ -27,7 +27,7 @@ tl.from("#header", {
     animationDirection: 'alternate',
     repeat:-1,
     scale:0.5,
-    yoyo:true
+    yoyo:true,
   })
   
   
