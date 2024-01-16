@@ -13,7 +13,7 @@
     <title>about us pages</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body id="body">
     <header>
       <img src="./assets/logo.png" alt="" class="headerlogo" />
 
@@ -27,9 +27,9 @@
     </header>
 
     <main>
-      <h2 class="main-h2">Best and Experienced Faculties</h2>
+      <h2 class="main-h2" id="main-h2i">Best and <span id="span">Experienced</span>  Faculties</h2>
 
-      <p class="paragraph">
+      <p class="paragraph" id="paragraphi">
         We had the best experts of medical field ton provide you the best
         service as <br />
         possible .We are trying out best to serve the world with our facilities
@@ -38,19 +38,27 @@
         everyone can gave a proper medical facilities to available.
       </p>
       <div class="middel-box">
-        <ul>
+        <ul id="box1">
           <li class="box">20+</li>
           <li>Doctors</li>
         </ul>
-        <ul>
+        <ul id="box2">
           <li class="box">50,000+</li>
           <li>Customers</li>
         </ul>
-        <ul>
+        <ul id="box3">
           <li class="box">500+</li>
           <li>Students</li>
         </ul>
       </div>
     </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script src="./script.js"></script>
+
   </body>
 </html>

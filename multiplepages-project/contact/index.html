@@ -25,23 +25,23 @@
             
           </header>
          <!--this section for form-->
-          <main>
+          <main id="MAIN">
             <div class="middel-box">
             <div>
               
                 <h2>contact us</h2>
 
                 <!--for border of form-->
-                <div class="form">
+                <div class="form" id="fORM">
         
-                     <label for="">Name:</label>
-                    <input type="text" name="name" placeholder="enter your name">
+                     <label for="Name" id="NAME">Name:</label>
+                    <input type="text" name="name" placeholder="enter your name" id="Name">
 
-                    <label for="">email:</label>
-                    <input type="email" name="email" placeholder="enter your email">
+                    <label for="email" id="EMAIL">email:</label>
+                    <input type="email" name="email" placeholder="enter your email"  id="email">
 
-                    <label for="">message:</label>
-                    <textarea name="text" name="message" rows="5" column="10" placeholder="enter your message"></textarea>
+                    <label for="message" id="MESSAGE">message:</label>
+                    <textarea name="text" name="message" rows="5" column="10" placeholder="enter your message" id="textarea"></textarea>
 
                     <!--submit button-->
                     <input type="submit" value="submit" id="submit">
@@ -50,7 +50,12 @@
 
             </div>
           </main>
-   
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <script src="./script.js"></script>
     
 </body>
 </html>
