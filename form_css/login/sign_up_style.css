@@ -134,6 +134,7 @@ button {
   justify-content: center;
   gap: 20px;
   height: 35%;
+  margin-left: 20px;
 }
 label {
   color: rgb(0, 255, 225);
@@ -149,3 +150,4 @@ button {
   color: aqua;
   font-size: small;
 }
+
